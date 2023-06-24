@@ -1,0 +1,46 @@
+#hola {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+    background: url("img/itachi.jpg");
+    background-size: cover;
+    padding: 50px;
+    border: solid
+  }
+  
+  
+  h1 {
+    cursor: crosshair;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  
+  p {
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(22, 185, 185);
+  }
+  
+  
+  button {
+    padding: 12px 40px;
+    margin: 15px;
+    background: rgb(111, 201, 21);
+    font-size: 21px;
+    color: brown;
+    border: 3px dashed brown;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+  }
+  
+  
+  button:hover{
+    background: transparent;
+    color: rgb(111, 201, 21);
+  }
+  
+  
