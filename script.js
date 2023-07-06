@@ -120,7 +120,7 @@ function descuento(){
     let b = 0;
     let c = 0;    
     a = parseInt(prompt("Digite el precio original"));
-    b = parseInt(prompt("Digite con un numero entero el descuento"));
+    b = parseInt(prompt("Digite con un numero entero el porcentage del descuento"));
     c = a - (a * b) / 100;
         alert(`El precio paso de " ${a} " sin descuento a " ${c} " con descuento`);
 }
